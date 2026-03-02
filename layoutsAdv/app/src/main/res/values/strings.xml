@@ -1,0 +1,15 @@
+
+<resources>
+
+<string name="app_name">layoutsAdv</string>
+
+<string-array name="dummy_list_data">
+    <item>Apple</item>
+    <item>Banana</item>
+    <item>Mango</item>
+    <item>Orange</item>
+    <item>Grapes</item>
+    <item>Pineapple</item>
+</string-array>
+
+</resources>

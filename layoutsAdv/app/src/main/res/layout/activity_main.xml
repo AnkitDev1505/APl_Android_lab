@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:text="ConstraintLayout"
+        android:onClick="openConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:text="AbsoluteLayout"
+        android:onClick="openAbsolute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:text="GridLayout"
+        android:onClick="openGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:text="LinearLayout"
+        android:onClick="openLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:text="ListView"
+        android:onClick="openList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
