@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Brand Colors (Premium Startup Palette) -->
+    <color name="brand_primary">#2563EB</color> <!-- Professional Blue -->
+    <color name="brand_primary_light">#DBEAFE</color>
+    <color name="brand_secondary">#0D9488</color> <!-- Healthcare Teal -->
+    <color name="brand_accent">#7C3AED</color> <!-- Purple Tech Touch -->
+    
+    <!-- Backgrounds & Surfaces -->
+    <color name="bg_main">#F8FAFC</color> <!-- Clean Grayish White -->
+    <color name="surface_card">#FFFFFF</color>
+    <color name="glass_surface">#CCFFFFFF</color>
+    
+    <!-- Typography -->
+    <color name="text_heading">#0F172A</color> <!-- Deep Slate -->
+    <color name="text_body">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    
+    <!-- Status -->
+    <color name="status_success">#10B981</color>
+    <color name="status_error">#EF4444</color>
+    <color name="status_warning">#F59E0B</color>
+
+    <!-- Compatibility Aliases (Fixed Missing Resources) -->
+    <color name="app_themecolor">#2563EB</color>
+    <color name="innerColor">#FFFFFF</color>
+    <color name="mainTextColor">#0F172A</color>
+    <color name="actionbarcolor">#2563EB</color>
+    <color name="main_button_round_background">#2563EB</color>
+    <color name="lightTextColor">#94A3B8</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>

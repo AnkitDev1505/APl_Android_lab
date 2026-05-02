@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Startup Premium 2026) -->
+    <style name="Theme.DoctorsAppointment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Palette -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Background & Surfaces -->
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="android:statusBarColor">@color/brand_primary</item>
+        
+        <!-- Global Component Styles -->
+        <item name="materialCardViewStyle">@style/Widget.MedCare.Card</item>
+        <item name="textInputStyle">@style/Widget.MedCare.TextInputLayout</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AppTheme_NoActionBar" parent="Theme.DoctorsAppointment" />
+
+    <!-- Glassmorphic Card Style -->
+    <style name="Widget.MedCare.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Outlined Input Style -->
+    <style name="Widget.MedCare.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/brand_primary</item>
+        <item name="hintTextColor">@color/brand_primary</item>
+        <item name="startIconTint">@color/brand_primary</item>
+    </style>
+    
+    <style name="DATILT" parent="Widget.MedCare.TextInputLayout" />
+</resources>
