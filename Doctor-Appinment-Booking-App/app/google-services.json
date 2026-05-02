@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "547009511022",
+    "project_id": "medcare-fb62e",
+    "storage_bucket": "medcare-fb62e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547009511022:android:96da64210d5388ecb3307f",
+        "android_client_info": {
+          "package_name": "thereviverkid.atwebpages.medcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPVq9EcWCVIhioRO55EOowUzNhOnJBB-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

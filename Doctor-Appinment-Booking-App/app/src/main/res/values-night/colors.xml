@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Brand Colors (Premium Startup Palette - Dark Mode) -->
+    <color name="brand_primary">#60A5FA</color> <!-- Lighter Blue for Dark Mode -->
+    <color name="brand_primary_light">#1E3A8A</color>
+    <color name="brand_secondary">#2DD4BF</color>
+    <color name="brand_accent">#A78BFA</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="bg_main">#0F172A</color> <!-- Deep Slate Background -->
+    <color name="surface_card">#1E293B</color>
+    <color name="glass_surface">#1A1E293B</color>
+
+    <!-- Typography -->
+    <color name="text_heading">#F8FAFC</color>
+    <color name="text_body">#CBD5E1</color>
+    <color name="text_muted">#64748B</color>
+    <color name="text_on_primary">#0F172A</color>
+
+    <!-- Status -->
+    <color name="status_success">#34D399</color>
+    <color name="status_error">#F87171</color>
+    <color name="status_warning">#FBBF24</color>
+
+    <!-- Compatibility Aliases (Fixed Missing Resources) -->
+    <color name="app_themecolor">#60A5FA</color>
+    <color name="innerColor">#1E293B</color>
+    <color name="mainTextColor">#F8FAFC</color>
+    <color name="actionbarcolor">#1E293B</color>
+    <color name="main_button_round_background">#60A5FA</color>
+    <color name="lightTextColor">#CBD5E1</color>
+    <color name="buttonTextColor">#0F172A</color>
+</resources>
